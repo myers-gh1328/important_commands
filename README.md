@@ -7,7 +7,7 @@ Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All 
 
 winget install command
 ```
-winget install -e --id Microsoft.VisualStudioCode;winget install -e --id Kubernetes.kubectl;winget install -e --id RedHat.Podman;winget install -e --id Insomnia.Insomnia
+winget install -e --id Microsoft.VisualStudioCode;winget install -e --id Kubernetes.kubectl;winget install -e --id RedHat.Podman;winget install -e --id Insomnia.Insomnia; -e --id Notepad++.Notepad++
 ```
 
 Purge all branches except main
