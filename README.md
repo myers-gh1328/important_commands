@@ -20,3 +20,14 @@ remove remotes
 git fetch --prune
 ```
 
+MSSQL Impersonation
+```sql
+USE TQL
+EXECUTE AS USER = '{USERACCOUNT}';
+GO
+
+-- add code to run here
+
+REVERT;
+GO
+```
