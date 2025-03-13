@@ -22,7 +22,7 @@ git fetch --prune
 
 MSSQL Impersonation
 ```sql
-USE TQL
+USE {DATABASE}
 EXECUTE AS USER = '{USERACCOUNT}';
 GO
 
