@@ -20,6 +20,11 @@ remove remotes
 git fetch --prune
 ```
 
+Check vulnerable packages
+```
+dotnet list package --include-transitive --vulnerable
+```
+
 MSSQL Impersonation
 ```sql
 USE {DATABASE}
