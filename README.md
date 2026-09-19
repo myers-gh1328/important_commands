@@ -1,5 +1,10 @@
 # important_commands
 
+Keep windows awake temporarily
+```ps
+while ($true) { (New-Object -ComObject WScript.Shell).SendKeys('{F15}'); Start-Sleep -Seconds 60 }
+```
+
 Enable Windows Sandbox
 ```
 Enable-WindowsOptionalFeature -FeatureName "Containers-DisposableClientVM" -All -Online
